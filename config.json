@@ -1,0 +1,10 @@
+{
+    "selected_band": "H22",
+    "sample_rate": 2048000,
+    "frequency_step": 25000,
+    "samples_per_scan": 1024,
+    "gain": 40,
+    "freq_correction": -21,
+    "log_directory": "logs",
+    "num_passes_for_average": 10
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "band": "G53",
+    "frequency_range_hz": { "start": 470000000, "end": 510000000 },
+    "regions_allowed": ["China"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "China-specific band for 470–510 MHz [oai_citation_attribution:0‡shure.com](https://www.shure.com/en-ASIA/support/wireless-spectrum/frequency-versions#:~:text=China%20G53%20%28470,698%20MHz); higher power use may require licensing."
+  },
+  {
+    "band": "G10",
+    "frequency_range_hz": { "start": 470000000, "end": 542000000 },
+    "regions_allowed": ["US", "Canada", "Latin America"],
+    "rf_output_power_options": ["10mW", "50mW", "100mW"],
+    "regulatory_info": "Americas variant (470–542 MHz) [oai_citation_attribution:1‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=G10%20470,10%20%2F%2050%20mW%20H8Z) – up to 50 mW is typically license-free under FCC Part 15, while 100 mW operation in the US requires an FCC Part 74 license [oai_citation_attribution:2‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=G10%20470,10%20%2F%2050%20mW%20H8Z). Not used in Europe (see G10E)."
+  },
+  {
+    "band": "G10E",
+    "frequency_range_hz": { "start": 470000000, "end": 542000000 },
+    "regions_allowed": ["Europe", "UK", "India", "Peru"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "European variant of G10 (470–542 MHz) with max 50 mW output [oai_citation_attribution:3‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=G10E%20470,10%20%2F%2050%20mW%20J8). Complies with ETSI regulations; most EU countries require a license for use in this band. Not used in the US."
+  },
+  {
+    "band": "G10J",
+    "frequency_range_hz": { "start": 470000000, "end": 542000000 },
+    "regions_allowed": ["Japan"],
+    "rf_output_power_options": ["6mW", "10mW"],
+    "regulatory_info": "Japan-only variant of G10 (470–542 MHz) with very low power limits [oai_citation_attribution:4‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=G10E%20470%E2%80%93542%20MHz%2010%2F50%20mW) per Japanese radio law."
+  },
+  {
+    "band": "G11",
+    "frequency_range_hz": { "start": 479000000, "end": 542000000 },
+    "regions_allowed": ["Hong Kong"],
+    "rf_output_power_options": ["10mW"],
+    "regulatory_info": "Hong Kong variant (479–542 MHz) [oai_citation_attribution:5‡shure.com](https://www.shure.com/en-ASIA/support/wireless-spectrum/frequency-versions#:~:text=L60%20%28630) intended for low-power, license-exempt use in that region."
+  },
+  {
+    "band": "G62",
+    "frequency_range_hz": { "start": 510000000, "end": 530000000 },
+    "regions_allowed": ["Taiwan"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "Taiwan-specific band (510–530 MHz) [oai_citation_attribution:6‡shure.com](https://www.shure.com/en-ASIA/support/wireless-spectrum/frequency-versions#:~:text=Singapore%20H8Z%20%28518,530%20MHz); operation may be subject to local licensing and regulations."
+  },
+  {
+    "band": "H8Z",
+    "frequency_range_hz": { "start": 518000000, "end": 582000000 },
+    "regions_allowed": ["Australia", "New Zealand", "Singapore", "Korea"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "518–582 MHz band for various Asia-Pacific regions [oai_citation_attribution:7‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=H8Z%20518,50%20%2F%20100%20mW), typically limited to 50 mW. Country-specific regulations (e.g., ACMA in Australia) apply."
+  },
+  {
+    "band": "H22",
+    "frequency_range_hz": { "start": 518000000, "end": 584000000 },
+    "regions_allowed": ["US", "Canada", "Latin America"],
+    "rf_output_power_options": ["10mW", "50mW", "100mW"],
+    "regulatory_info": "518–584 MHz variant for the Americas [oai_citation_attribution:8‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=H8Z%20518%E2%80%93582%20MHz%2010%2F50%20mW). In the US, >50 mW (up to 100 mW) requires a Part 74 license (unlicensed operation is limited to 50 mW). Not used in EU/UK."
+  },
+  {
+    "band": "J8",
+    "frequency_range_hz": { "start": 554000000, "end": 626000000 },
+    "regions_allowed": ["US", "Canada", "Latin America"],
+    "rf_output_power_options": ["10mW", "50mW", "100mW"],
+    "regulatory_info": "Original 554–626 MHz band variant for the Americas [oai_citation_attribution:9‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=J8%20554,10%20%2F%2050%20mW%20K10E). After the 600 MHz spectrum reallocation, use of the upper portion (above 608 MHz) is disallowed in the US. This band is still used in some countries that have not implemented the 600 MHz mobile services."
+  },
+  {
+    "band": "J8A",
+    "frequency_range_hz": { "start": 554000000, "end": 616000000 },
+    "regions_allowed": ["US", "Canada"],
+    "rf_output_power_options": ["10mW", "50mW", "100mW"],
+    "regulatory_info": "Modified U.S. band (554–608 MHz) excluding the 608–614 MHz Channel 37 spectrum [oai_citation_attribution:10‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=J8A). Additionally, 614–616 MHz is tunable at only 10 mW as it lies in the guard band [oai_citation_attribution:11‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=J8A). 100 mW operation requires an FCC license; this band complies with post-2017 FCC rules."
+  },
+  {
+    "band": "J8E",
+    "frequency_range_hz": { "start": 554000000, "end": 626000000 },
+    "regions_allowed": ["Europe", "UK", "India", "Malaysia", "Singapore"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "EMEA/Asia variant for 554–626 MHz (≤50 mW) [oai_citation_attribution:12‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=614%E2%80%93616%20MHz%2010). Subject to European regulations; typically requires a license for professional use."
+  },
+  {
+    "band": "J8J",
+    "frequency_range_hz": { "start": 554000000, "end": 626000000 },
+    "regions_allowed": ["Japan"],
+    "rf_output_power_options": ["6mW", "10mW"],
+    "regulatory_info": "Japan variant of the 554–626 MHz band with strict low power limits [oai_citation_attribution:13‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=614%E2%80%93616%20MHz%2010)."
+  },
+  {
+    "band": "K10E",
+    "frequency_range_hz": { "start": 596000000, "end": 668000000 },
+    "regions_allowed": ["Europe", "UK", "Australia", "Philippines", "Singapore"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "596–668 MHz band for EU/AU markets [oai_citation_attribution:14‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=K10E%20596,50%20%2F%20100%20mW%20L8E). Many countries have cleared 614–698 MHz for mobile broadband, so this band is now restricted or requires licensing in those regions."
+  },
+  {
+    "band": "L8",
+    "frequency_range_hz": { "start": 626000000, "end": 698000000 },
+    "regions_allowed": ["US", "Canada", "Latin America", "Australia"],
+    "rf_output_power_options": ["10mW", "50mW", "100mW"],
+    "regulatory_info": "626–698 MHz full 600 MHz band variant [oai_citation_attribution:15‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=L8%20626,10%20%2F%2050%20mW%20L9E). Not legal in US/EU after the 600/700 MHz spectrum repurpose (except for partial use of the duplex gap—see L8A). Still in use in regions without 600 MHz mobile allocation."
+  },
+  {
+    "band": "L8A",
+    "frequency_range_hz": { "start": 653000000, "end": 663000000 },
+    "regions_allowed": ["US"],
+    "rf_output_power_options": ["10mW"],
+    "regulatory_info": "U.S. 653–663 MHz duplex gap band [oai_citation_attribution:16‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=L8A). Operation is limited to 10 mW (unlicensed use); this band allows in-ear monitors to operate in the guard band between 600 MHz uplink/downlink bands under FCC rules."
+  },
+  {
+    "band": "L8E",
+    "frequency_range_hz": { "start": 626000000, "end": 698000000 },
+    "regions_allowed": ["Europe", "UK", "Singapore"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "626–698 MHz European variant [oai_citation_attribution:17‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=653%E2%80%93657%20MHz%2010%20mW) (≤50 mW). Subject to the 700 MHz clearance (frequencies above 694 MHz are no longer available for wireless audio in most of Europe)."
+  },
+  {
+    "band": "L8J",
+    "frequency_range_hz": { "start": 626000000, "end": 698000000 },
+    "regions_allowed": ["Japan"],
+    "rf_output_power_options": ["6mW", "10mW"],
+    "regulatory_info": "626–698 MHz Japan variant with low-power limits [oai_citation_attribution:18‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=657%E2%80%93663%20MHz%2010)."
+  },
+  {
+    "band": "L9E",
+    "frequency_range_hz": { "start": 670000000, "end": 742000000 },
+    "regions_allowed": ["China"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "670–742 MHz band for China [oai_citation_attribution:19‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=L9E%20670,10%20%2F%2020%20mW%20P8). This spans part of the 700 MHz band; availability varies as 700 MHz is allocated to broadcasting or mobile in different regions."
+  },
+  {
+    "band": "L10",
+    "frequency_range_hz": { "start": 670000000, "end": 742000000 },
+    "regions_allowed": ["Hong Kong"],
+    "rf_output_power_options": ["10mW", "20mW"],
+    "regulatory_info": "670–742 MHz Hong Kong variant [oai_citation_attribution:20‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=China%2010%20%2F%2050%20mW,10%20%2F%2020%20mW%20P8), limited to 20 mW for compliant use (low-power wireless monitor operation under local regulations)."
+  },
+  {
+    "band": "L11J",
+    "frequency_range_hz": { "start": 670000000, "end": 714000000 },
+    "regions_allowed": ["Japan"],
+    "rf_output_power_options": ["6mW", "10mW"],
+    "regulatory_info": "670–714 MHz Japan-only band [oai_citation_attribution:21‡shure.com](https://www.shure.com/en-ASIA/support/wireless-spectrum/frequency-versions#:~:text=Japan%20G10J%20%28470,698%20MHz), low power. Falls within Japan’s 710 MHz broadcast auxiliary spectrum."
+  },
+  {
+    "band": "L60",
+    "frequency_range_hz": { "start": 630000000, "end": 698000000 },
+    "regions_allowed": ["China"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "630–698 MHz China variant (similar to L8) [oai_citation_attribution:22‡shure.com](https://www.shure.com/en-ASIA/support/wireless-spectrum/frequency-versions#:~:text=K10E%20%28596,698%20MHz). Usage is governed by regional regulations; parts of this range may overlap with mobile services in other countries."
+  },
+  {
+    "band": "M19",
+    "frequency_range_hz": { "start": 694000000, "end": 703000000 },
+    "regions_allowed": ["Europe"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "694–703 MHz band (Europe) [oai_citation_attribution:23‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=L1%201J%20670%E2%80%93714%20MHz%206%2F10,mW), corresponding to the guard band after the 700 MHz clearance. Generally requires a license and coordination, as it sits adjacent to mobile uplink frequencies."
+  },
+  {
+    "band": "P8",
+    "frequency_range_hz": { "start": 710000000, "end": 790000000 },
+    "regions_allowed": ["Europe", "Asia"],
+    "rf_output_power_options": ["10mW", "50mW", "100mW"],
+    "regulatory_info": "710–790 MHz band [oai_citation_attribution:24‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=M19%20694%E2%80%93703%20MHz%2010%2F50%20mW), used in Europe (e.g., TV channels 50–59) before the 800 MHz band was repurposed. After 790 MHz was allocated to mobile (EU digital dividend), this band is largely obsolete or restricted."
+  },
+  {
+    "band": "Q21",
+    "frequency_range_hz": { "start": 710000000, "end": 787000000 },
+    "regions_allowed": ["China"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "710–787 MHz China-specific band [oai_citation_attribution:25‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=Q21%20710,10%20%2F%2050%20mW%20Q23). Not available in regions that have cleared 700 MHz for mobile broadband."
+  },
+  {
+    "band": "Q12",
+    "frequency_range_hz": { "start": 748000000, "end": 758000000 },
+    "regions_allowed": ["Europe"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "748–758 MHz European allocation [oai_citation_attribution:26‡de.mans.io](https://de.mans.io/files/viewer/1312887/38#:~:text=M19%20694%E2%80%93703%20MHz%2010%2F50%20mW), within the 700 MHz center gap. Typically requires authorization for use (shared with other services in some countries)."
+  },
+  {
+    "band": "Q22E",
+    "frequency_range_hz": { "start": 750000000, "end": 822000000 },
+    "regions_allowed": ["Europe"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "750–822 MHz band for Europe [oai_citation_attribution:27‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=Q22E%20750,6%20%2F%2010%20mW%20R27) (covered much of the 800 MHz TV band). This band is no longer usable in the EU since 790–822 MHz was reassigned to mobile networks (digital dividend)."
+  },
+  {
+    "band": "Q23",
+    "frequency_range_hz": { "start": 750000000, "end": 806000000 },
+    "regions_allowed": ["Taiwan"],
+    "rf_output_power_options": ["6mW", "10mW"],
+    "regulatory_info": "750–806 MHz Taiwan-only variant [oai_citation_attribution:28‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=Q23%20750,10%20%2F%2050%20mW%20A24) with very low power (likely for unlicensed operation). It covers the lower part of the old 800 MHz TV band under Taiwan regulations."
+  },
+  {
+    "band": "R27",
+    "frequency_range_hz": { "start": 794000000, "end": 806000000 },
+    "regions_allowed": ["Thailand", "Middle East"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "794–806 MHz band [oai_citation_attribution:29‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=Taiwan%206%20%2F%2010%20mW,806%20MHz%20Thailand%2C%20EMEA) used in certain countries (e.g., Thailand, some Middle East/Africa regions) prior to 800 MHz reallocation. Generally requires licensing; not used in most regions after the 800 MHz band became mobile spectrum."
+  },
+  {
+    "band": "X7",
+    "frequency_range_hz": { "start": 925000000, "end": 937500000 },
+    "regions_allowed": ["Korea"],
+    "rf_output_power_options": ["10mW"],
+    "regulatory_info": "925–937.5 MHz band for South Korea [oai_citation_attribution:30‡shure.com](https://www.shure.com/en-ASIA/support/wireless-spectrum/frequency-versions#:~:text=L11J%20%28670,937.5%20MHz). Use of this band typically requires a license; it is allocated for wireless mic/IEM in Korea."
+  },
+  {
+    "band": "X1",
+    "frequency_range_hz": { "start": 944000000, "end": 952000000 },
+    "regions_allowed": ["US"],
+    "rf_output_power_options": ["10mW", "50mW", "100mW"],
+    "regulatory_info": "944–952 MHz band for the US [oai_citation_attribution:31‡studylib.net](https://studylib.net/doc/18815770/psm-1000-specification-sheet#:~:text=Japan%206%20%2F%2010%20mW,50%20%2F%20100%20mW%20X1). This frequency range is reserved for licensed wireless microphone/IEM use (FCC Part 74 only, often used by broadcasters)."
+  }
+]
