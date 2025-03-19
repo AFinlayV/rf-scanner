@@ -7,7 +7,13 @@ BANDS_PATH = os.path.join(os.path.dirname(__file__), "data/psm1000_bands.json")
 def load_config():
     """Load configuration from config.json in the project root."""
     with open(CONFIG_PATH, "r") as f:
-        return json.load(f)
+        config_data = json.load(f)
+    
+    # Ensure test_mode exists in the config
+    if "test_mode" not in config_data:
+        config_data["test_mode"] = False  # Default to False if not specified
+
+    return config_data
 
 def load_bands():
     """Load available PSM 1000 frequency bands."""

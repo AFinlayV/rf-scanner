@@ -1,5 +1,7 @@
 from rtlsdr import RtlSdr
 import numpy as np
+import time
+from rtlsdr.rtlsdr import LibUSBError
 
 class DataAcquisition:
     def __init__(self, config):
@@ -12,14 +14,27 @@ class DataAcquisition:
         self.sdr.freq_correction = config["freq_correction"]
 
     def scan(self, frequency):
-        """Grab IQ samples from RTL-SDR at a specific frequency."""
-        self.sdr.center_freq = frequency
-        print(f"[DataAcquisition] Scanning {self.sdr.center_freq / 1e6:.3f} MHz...")
+        """Grab IQ samples from RTL-SDR at a specific frequency, with error handling."""
+        max_retries = 3  # Number of attempts before giving up
+        retry_delay = 1  # Seconds to wait before retrying
 
-        iq_samples = self.sdr.read_samples(self.config["samples_per_scan"])  # Get real samples
-        iq_samples = np.array(iq_samples, dtype=np.complex64)  # Ensure NumPy format
+        for attempt in range(max_retries):
+            try:
+                self.sdr.center_freq = frequency
+                print(f"[DataAcquisition] Scanning {self.sdr.center_freq / 1e6:.3f} MHz...")
 
-        return self.sdr.center_freq, iq_samples
+                iq_samples = self.sdr.read_samples(self.config["samples_per_scan"])  # Get real samples
+                iq_samples = np.array(iq_samples, dtype=np.complex64)  # Ensure NumPy format
+
+                return self.sdr.center_freq, iq_samples
+
+            except LibUSBError as e:
+                print(f"⚠️ SDR USB Error: {e}. Attempt {attempt + 1} of {max_retries}")
+                if attempt < max_retries - 1:
+                    time.sleep(retry_delay)  # Wait before retrying
+                else:
+                    print(f"❌ Failed to set frequency {frequency / 1e6:.3f} MHz after {max_retries} attempts.")
+                    return frequency, np.zeros(self.config["samples_per_scan"], dtype=np.complex64)  # Return empty samples on failure
 
     def scan_range(self):
         """Scan from start_frequency to end_frequency in steps."""

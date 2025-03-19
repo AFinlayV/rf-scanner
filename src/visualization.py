@@ -108,13 +108,13 @@ class Visualization:
         for sweep in self.spectrum_history[:-1]:
             self.ax.plot(self.freqs / 1e6, sweep, color="gray", linewidth=0.5, alpha=0.5)
 
-        # Plot average sweep in blue if available
+        # Plot max sweep in blue if available
         if len(self.spectrum_history) > 1:
-            avg_spectrum = np.mean(self.spectrum_history, axis=0)
-            self.ax.plot(self.freqs / 1e6, avg_spectrum, color="blue", linewidth=1.0, label="Average Sweep")
+            max_spectrum = np.max(self.spectrum_history, axis=0)
+            self.ax.plot(self.freqs / 1e6, max_spectrum, color="blue", linewidth=1.0, label="Max Observed Sweep")
 
-        # Plot most recent sweep in red
-        self.ax.plot(self.freqs / 1e6, self.spectrum_history[-1], color="red", linewidth=1.5, label="Most Recent Sweep")
+        # Plot most recent sweep in red with a thinner line
+        self.ax.plot(self.freqs / 1e6, self.spectrum_history[-1], color="red", linewidth=0.8, label="Most Recent Sweep")
 
         self.ax.legend()
         plt.pause(0.05)
