@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RF Scanner Setup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        input, select {
+            padding: 8px;
+            font-size: 16px;
+            margin: 5px;
+            width: 220px;
+        }
+        .config-container {
+            margin: 20px auto;
+            max-width: 400px;
+            text-align: left;
+        }
+        .config-container label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+    </style>
+    <script>
+        let scanInProgress = false;
+
+        async function fetchConfig() {
+            const response = await fetch("/status");
+            const config = await response.json();
+
+            document.getElementById("city").value = config.city || "";
+            document.getElementById("venue").value = config.venue || "";
+            document.getElementById("zip-code").value = config.zip_code || "";
+
+            const bandSelect = document.getElementById("band-select");
+            bandSelect.innerHTML = ""; // Clear existing options
+
+            if (Array.isArray(config.available_bands) && config.available_bands.length > 0) {
+                config.available_bands.forEach(band => {
+                    let option = document.createElement("option");
+                    option.value = band;
+                    option.textContent = band;
+                    bandSelect.appendChild(option);
+                });
+
+                bandSelect.value = config.selected_band || config.available_bands[0];
+            } else {
+                console.error("No available bands found in API response.");
+                bandSelect.innerHTML = '<option disabled>No bands available</option>';
+            }
+        }
+
+        async function updateConfig() {
+            const newConfig = {
+                city: document.getElementById("city").value,
+                venue: document.getElementById("venue").value,
+                zip_code: document.getElementById("zip-code").value,
+                selected_band: document.getElementById("band-select").value
+            };
+
+            await fetch("/update-config", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(newConfig)
+            });
+
+            alert("Configuration updated!");
+        }
+
+        async function startScan() {
+            const scanButton = document.getElementById("start-scan");
+            const stopButton = document.getElementById("stop-scan");
+            const scanStatus = document.getElementById("scan-status");
+            const progressBar = document.getElementById("scan-progress");
+
+            scanButton.disabled = true;
+            stopButton.disabled = false;
+            scanStatus.textContent = "📡 Scan in progress...";
+            scanStatus.style.color = "blue";
+            progressBar.value = 0;
+            progressBar.style.display = "block";
+
+            scanInProgress = true;
+            updateProgress();  // Start updating progress bar
+
+            try {
+                const response = await fetch("/scan/start", { method: "POST" });
+                const result = await response.json();
+
+                if (result.status) {
+                    scanStatus.textContent = "✅ " + result.status;
+                    scanStatus.style.color = "green";
+                } else {
+                    scanStatus.textContent = "❌ " + result.error;
+                    scanStatus.style.color = "red";
+                }
+            } catch (error) {
+                scanStatus.textContent = "❌ Error starting scan";
+                scanStatus.style.color = "red";
+            }
+
+            scanInProgress = false;
+            scanButton.disabled = false;
+            stopButton.disabled = true;
+            progressBar.style.display = "none";
+        }
+
+        async function stopScan() {
+            const stopButton = document.getElementById("stop-scan");
+            const scanStatus = document.getElementById("scan-status");
+
+            try {
+                const response = await fetch("/scan/stop", { method: "POST" });
+                const result = await response.json();
+
+                if (result.status) {
+                    scanStatus.textContent = "⏹️ " + result.status;
+                    scanStatus.style.color = "orange";
+                } else {
+                    scanStatus.textContent = "❌ " + result.error;
+                    scanStatus.style.color = "red";
+                }
+            } catch (error) {
+                scanStatus.textContent = "❌ Error stopping scan";
+                scanStatus.style.color = "red";
+            }
+
+            scanInProgress = false;
+            document.getElementById("start-scan").disabled = false;
+            stopButton.disabled = true;
+            document.getElementById("scan-progress").style.display = "none";
+        }
+
+        async function updateProgress() {
+            const progressBar = document.getElementById("scan-progress");
+            while (scanInProgress) {
+                progressBar.value += 10;
+                if (progressBar.value >= 100) {
+                    progressBar.value = 0;
+                }
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+        }
+
+        window.onload = fetchConfig;
+    </script>
+</head>
+<body>
+    <h1>RF Scanner Setup</h1>
+    
+    <div class="config-container">
+        <label for="city">City:</label>
+        <input type="text" id="city" placeholder="Enter city">
+
+        <label for="venue">Venue:</label>
+        <input type="text" id="venue" placeholder="Enter venue">
+
+        <label for="zip-code">ZIP Code:</label>
+        <input type="text" id="zip-code" placeholder="Enter ZIP Code">
+
+        <label for="band-select">Select Band:</label>
+        <select id="band-select">
+            <option disabled>Loading...</option>
+        </select>
+
+        <button onclick="updateConfig()">Save Config</button>
+        <button id="start-scan" onclick="startScan()">Run Scan</button>
+        <button id="stop-scan" onclick="stopScan()" disabled>Stop Scan</button>
+
+        <p id="scan-status">Waiting for scan...</p>
+        <progress id="scan-progress" value="0" max="100" style="display: none; width: 100%;"></progress>
+    </div>
+</body>
+</html>

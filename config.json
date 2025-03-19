@@ -6,6 +6,8 @@
     "gain": 40,
     "freq_correction": -21,
     "log_directory": "logs",
+    "test_log_directory": "src/test_data/",
     "num_passes_for_average": 5,
-    "test_mode": true
+    "test_mode": true,
+    "flask_mode": true
 }

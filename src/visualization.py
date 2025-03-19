@@ -4,6 +4,7 @@ import numpy as np
 class Visualization:
     def __init__(self, config, bands):
         self.config = config
+        self.test_mode = config.get("test_mode", False)  # Check if test mode is enabled
         self.start_freq = config["start_frequency"]
         self.end_freq = config["end_frequency"]
         self.freq_step = config["frequency_step"]
@@ -25,6 +26,13 @@ class Visualization:
         self.ax.set_ylabel("Signal Strength (dB)", color="white")
         self.ax.tick_params(colors="white")
         self.ax.grid(True, color="gray", linestyle="--", linewidth=0.5)
+
+        # Mode indicator
+        mode_text = "🧪 Test Mode" if self.test_mode else "📡 Live Mode"
+        self.mode_label = self.ax.text(
+            0.02, 0.98, mode_text, transform=self.ax.transAxes,
+            fontsize=12, fontweight="bold", color="cyan", ha="left", va="top"
+        )
 
         # Adjust layout to ensure x-axis labels are visible
         self.fig.subplots_adjust(bottom=0.25, top=0.85)
@@ -69,7 +77,13 @@ class Visualization:
                 f"RF Power: {', '.join(band['rf_output_power_options'])}")
 
     def update_status(self, current_freq, progress):
-        """Update the current frequency display and progress bar."""
+        """Update the current frequency display, progress bar, and mode label."""
+        if self.test_mode:
+            print(f"🧪 Test Mode: Simulating scan at {current_freq / 1e6:.3f} MHz, Progress: {progress:.2f}%")
+
+        mode_text = "🧪 Test Mode" if self.test_mode else "📡 Live Mode"
+        self.mode_label.set_text(mode_text)
+
         self.ax.set_title(f"Scanning: {current_freq / 1e6:.3f} MHz", color="white")
         self.progress_bar.set_data([0, progress], [0.5, 0.5])
         self.current_freq_text.set_text(f"{current_freq / 1e6:.3f} MHz")
@@ -78,6 +92,8 @@ class Visualization:
 
     def update_spectrum(self, spectrum):
         """Update the main spectrum plot with a new full sweep."""
+        if self.test_mode:
+            print(f"🧪 Test Mode: Updating spectrum visualization with simulated data.")
         self.ax.clear()
         self.ax.set_facecolor("black")
         self.ax.set_xlabel("Frequency (MHz)", color="white")
@@ -117,4 +133,4 @@ class Visualization:
         self.ax.plot(self.freqs / 1e6, self.spectrum_history[-1], color="red", linewidth=0.8, label="Most Recent Sweep")
 
         self.ax.legend()
-        plt.pause(0.05)
+        #plt.pause(0.01)

@@ -31,12 +31,29 @@ class Logger:
         Expects scan_data to include a "timestamp" key.
         Now includes full configuration metadata for reference.
         """
+        if self.config.get("test_mode", False):
+            print("🧪 Test Mode: Skipping log save.")
+            return
         timestamp = scan_data["timestamp"]
+        # Load full config from config.json
+        config_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "config.json"))
+        try:
+            with open(config_path, "r") as f:
+                full_config = json.load(f)
+        except Exception as e:
+            print(f"⚠️ WARNING: Could not load full config: {e}")
+            full_config = {}
+
         log_entry = {
             "timestamp": timestamp,
-            "config": self.config,  # Include all configuration settings
+            "config": full_config,  # Store full config from file
             "frequencies": scan_data["frequencies"],
-            "power_levels": scan_data["power_levels"]
+            "power_levels": scan_data["power_levels"],
+            "location": {
+                "city": full_config.get("city", "Unknown"),
+                "venue": full_config.get("venue", "Unknown"),
+                "zip_code": full_config.get("zip_code", "Unknown")
+            }
         }
 
         filename = os.path.join(self.log_directory, f"scan_{timestamp}.json")
@@ -65,6 +82,9 @@ class Logger:
         Saves the most recent scan pass as a CSV file.
         Also updates the max scan file.
         """
+        if self.config.get("test_mode", False):
+            print("🧪 Test Mode: Skipping recent scan save.")
+            return
         df = self.format_for_wwb(scan_data)
         recent_csv_path = os.path.join(self.data_directory, "recent_scan.csv")
         df.to_csv(recent_csv_path, index=False, header=False)
@@ -78,6 +98,9 @@ class Logger:
         Updates the max scan file by comparing current scan values against stored max values.
         Keeps the highest observed signal strength for each frequency.
         """
+        if self.config.get("test_mode", False):
+            print("🧪 Test Mode: Skipping max scan update.")
+            return
         max_csv_path = os.path.join(self.data_directory, "max_scan.csv")
 
         # Format current scan data
@@ -102,13 +125,15 @@ class Logger:
 
     def load_recent_logs(self, limit=5):
         """Loads up to 'limit' most recent scan logs and ensures valid data."""
-        log_files = sorted([f for f in os.listdir(self.log_directory) if f.endswith(".json")], reverse=True)[:limit]
+        log_dir = self.config.get("test_log_directory") if self.config.get("test_mode", False) else self.log_directory
+        log_files = sorted([f for f in os.listdir(log_dir) if f.endswith(".json")], reverse=True)[:limit]
         scan_passes = []
 
+        print(f"📂 DEBUG: Loading logs from {log_dir}")
         print(f"📂 DEBUG: Found {len(log_files)} log files.")
 
         for file in log_files:
-            file_path = os.path.join(self.log_directory, file)
+            file_path = os.path.join(log_dir, file)
             with open(file_path, "r") as f:
                 data = json.load(f)
                 if "frequencies" in data and "power_levels" in data:

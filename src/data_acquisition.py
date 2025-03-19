@@ -6,15 +6,24 @@ from rtlsdr.rtlsdr import LibUSBError
 class DataAcquisition:
     def __init__(self, config):
         self.config = config
-        self.sdr = RtlSdr()
+        self.test_mode = config.get("test_mode", False)
 
-        # Apply initial SDR settings
-        self.sdr.sample_rate = config["sample_rate"]
-        self.sdr.gain = config["gain"]
-        self.sdr.freq_correction = config["freq_correction"]
+        if not self.test_mode:
+            self.sdr = RtlSdr()
+
+            # Apply initial SDR settings
+            self.sdr.sample_rate = config["sample_rate"]
+            self.sdr.gain = config["gain"]
+            self.sdr.freq_correction = config["freq_correction"]
 
     def scan(self, frequency):
-        """Grab IQ samples from RTL-SDR at a specific frequency, with error handling."""
+        """Grab IQ samples from RTL-SDR or return simulated data in test mode."""
+        if self.test_mode:
+            print(f"🧪 Test Mode: Simulating scan at {frequency / 1e6:.3f} MHz")
+            iq_samples = np.random.normal(0, 0.1, self.config["samples_per_scan"]) + \
+                         1j * np.random.normal(0, 0.1, self.config["samples_per_scan"])
+            return frequency, iq_samples.astype(np.complex64)
+
         max_retries = 3  # Number of attempts before giving up
         retry_delay = 1  # Seconds to wait before retrying
 
@@ -47,5 +56,6 @@ class DataAcquisition:
             yield self.scan(freq)  # Yield each scan result
 
     def close(self):
-        """Clean up SDR resources."""
-        self.sdr.close()
+        """Clean up SDR resources if not in test mode."""
+        if not self.test_mode:
+            self.sdr.close()
