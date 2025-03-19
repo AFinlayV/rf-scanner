@@ -180,5 +180,9 @@
         <p id="scan-status">Waiting for scan...</p>
         <progress id="scan-progress" value="0" max="100" style="display: none; width: 100%;"></progress>
     </div>
+    
+    <h2>Real-Time Scan Data</h2>
+    <canvas id="rfChart" width="400" height="200"></canvas>
+    <script src="{{ url_for('static', filename='js/chart.js') }}"></script>
 </body>
 </html>

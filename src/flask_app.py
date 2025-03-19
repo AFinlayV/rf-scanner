@@ -1,8 +1,9 @@
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request, Response
 import json
 import os
 import subprocess
 import threading
+import time
 
 # Load configuration from the project root
 CONFIG_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "config.json"))
@@ -183,6 +184,32 @@ def update_config():
         return jsonify({"status": "Configuration updated successfully!"})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+# NEW: Stream scan data for real-time graphing
+@app.route("/scan/stream")
+def scan_stream():
+    """Stream scan data to the frontend for real-time graphing."""
+    def generate():
+        while True:
+            try:
+                with open(CONFIG_PATH, "r") as f:
+                    config = json.load(f)
+
+                log_dir = config.get("test_log_directory") if config.get("test_mode", False) else config.get("log_directory")
+                log_files = sorted([f for f in os.listdir(log_dir) if f.endswith(".json")], reverse=True)
+
+                if log_files:
+                    latest_file = os.path.join(log_dir, log_files[0])
+                    with open(latest_file, "r") as f:
+                        scan_data = json.load(f)
+                    yield f"data: {json.dumps(scan_data)}\n\n"
+                time.sleep(1)  # Adjust update rate
+
+            except Exception as e:
+                print(f"Error streaming scan data: {e}")
+                yield f"data: {json.dumps({'error': 'No data'})}\n\n"
+
+    return Response(generate(), mimetype="text/event-stream")
 
 if __name__ == "__main__":
     if config.get("flask_mode", False):
