@@ -1,13 +1,13 @@
 {
-    "selected_band": "H22",
+    "selected_band": "G10",
     "sample_rate": 2048000,
-    "frequency_step": 25000,
+    "frequency_step": 250000,
     "samples_per_scan": 1024,
     "gain": 40.2,
-    "freq_correction": -1,
+    "freq_correction": -21,
     "log_directory": "logs",
     "test_log_directory": "src/test_data/",
-    "num_passes_for_average": 5,
+    "num_passes_for_average": 3,
     "test_mode": false,
     "flask_mode": true
 }
