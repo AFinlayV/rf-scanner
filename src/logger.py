@@ -22,8 +22,8 @@ class Logger:
 
     def convert_to_dbm(self, value):
         if value <= 0:
-            return -100  # Default floor for invalid values
-        return round(10 * np.log10(value) - 100, 1)  # Apply calibration offset and round to 1 decimal place
+            return -120  # Default floor for invalid values
+        return round(10 * np.log10(value) - 100, 3)  # Apply calibration offset and round to 1 decimal place
 
     def save_log(self, scan_data):
         """

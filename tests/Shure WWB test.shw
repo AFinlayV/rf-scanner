@@ -1,0 +1,4150 @@
+<show appl_version="7.2.0.117" version="1.0" source="Alexs-MacBook-Pro.local" date="Sat Mar 22 2025" time="10:53:43">
+    <show_properties version="1.0">
+        <show_info>
+            <name>fillmore</name>
+            <customer/>
+        </show_info>
+        <point_of_contact_info>
+            <name/>
+            <address/>
+            <phone/>
+            <email/>
+            <remember_poc>false</remember_poc>
+        </point_of_contact_info>
+        <venue_info>
+            <name/>
+            <address/>
+            <phone/>
+            <email/>
+        </venue_info>
+        <notes/>
+    </show_properties>
+    <inventory version="2.1">
+        <device>
+            <id dcid="0423D214-FD5A-11E3-8123-0015C5F3F612">DD211E02-0000-11DD-A000-000EDDCCCCCC</id>
+            <series>PSM1000</series>
+            <model type="10">PSM1000</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <production_id type="10">VT190800253</production_id>
+            <firmware_version type="12">0001000800060000</firmware_version>
+            <firmware_version_valid type="1">true</firmware_version_valid>
+            <firmware_version_hosted type="12">0001000800090000</firmware_version_hosted>
+            <device_name type="10"><![CDATA[P10T]]></device_name>
+            <mac_address type="12">000edd211e02</mac_address>
+            <ip_mode type="3">0</ip_mode>
+            <ip_address type="3">2852032932</ip_address>
+            <ip_subnet type="3">4294901760</ip_subnet>
+            <ip_gateway type="3">0</ip_gateway>
+            <band type="10">J8A</band>
+            <custom_group_channel1 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel1>
+            <custom_group_channel2 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel2>
+            <custom_group_channel3 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel3>
+            <custom_group_channel4 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel4>
+            <custom_group_channel5 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel5>
+            <custom_group_channel6 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel6>
+            <power_lock type="1">false</power_lock>
+            <zone type="12">Default</zone>
+            <channel number="1">
+                <channel_name type="10"><![CDATA[POUYA]]></channel_name>
+                <color type="3">5789784</color>
+                <frequency type="3">615375</frequency>
+                <rf_mute type="1">false</rf_mute>
+                <tx_power type="2">50</tx_power>
+                <front_panel_lock type="1">false</front_panel_lock>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <audio_level_setting type="2">0</audio_level_setting>
+                <audio_pad type="1">true</audio_pad>
+                <audio_mode type="3">3</audio_mode>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <ir_sync_mix_mode type="3">255</ir_sync_mix_mode>
+                <ir_sync_hf_boost type="3">255</ir_sync_hf_boost>
+                <ir_sync_limit_enable type="3">255</ir_sync_limit_enable>
+                <ir_sync_limit_value type="3">255</ir_sync_limit_value>
+                <ir_sync_bal_stereo type="3">255</ir_sync_bal_stereo>
+                <ir_sync_bal_mix_mode type="3">255</ir_sync_bal_mix_mode>
+                <ir_sync_gain_mode type="3">255</ir_sync_gain_mode>
+                <ir_sync_volume_limit type="3">255</ir_sync_volume_limit>
+                <ir_sync_volume_lock type="3">255</ir_sync_volume_lock>
+                <ir_sync_input_eq_preset type="3">255</ir_sync_input_eq_preset>
+                <ir_sync_eq_enable type="3">255</ir_sync_eq_enable>
+                <ir_sync_eq_low_gain type="3">255</ir_sync_eq_low_gain>
+                <ir_sync_eq_low_mid_gain type="3">255</ir_sync_eq_low_mid_gain>
+                <ir_sync_eq_low_mid_freq type="3">255</ir_sync_eq_low_mid_freq>
+                <ir_sync_eq_low_mid_q type="3">255</ir_sync_eq_low_mid_q>
+                <ir_sync_eq_high_mid_gain type="3">255</ir_sync_eq_high_mid_gain>
+                <ir_sync_eq_high_mid_freq type="3">255</ir_sync_eq_high_mid_freq>
+                <ir_sync_eq_high_mid_q type="3">255</ir_sync_eq_high_mid_q>
+                <ir_sync_eq_high_gain type="3">255</ir_sync_eq_high_gain>
+                <ir_sync_auto_off type="3">255</ir_sync_auto_off>
+                <tags type="10"></tags>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+            <channel number="2">
+                <channel_name type="10"><![CDATA[MARCUS]]></channel_name>
+                <color type="3">5789784</color>
+                <frequency type="3">600750</frequency>
+                <rf_mute type="1">false</rf_mute>
+                <tx_power type="2">50</tx_power>
+                <front_panel_lock type="1">false</front_panel_lock>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <audio_level_setting type="2">0</audio_level_setting>
+                <audio_pad type="1">true</audio_pad>
+                <audio_mode type="3">3</audio_mode>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <ir_sync_mix_mode type="3">255</ir_sync_mix_mode>
+                <ir_sync_hf_boost type="3">255</ir_sync_hf_boost>
+                <ir_sync_limit_enable type="3">255</ir_sync_limit_enable>
+                <ir_sync_limit_value type="3">255</ir_sync_limit_value>
+                <ir_sync_bal_stereo type="3">255</ir_sync_bal_stereo>
+                <ir_sync_bal_mix_mode type="3">255</ir_sync_bal_mix_mode>
+                <ir_sync_gain_mode type="3">255</ir_sync_gain_mode>
+                <ir_sync_volume_limit type="3">255</ir_sync_volume_limit>
+                <ir_sync_volume_lock type="3">255</ir_sync_volume_lock>
+                <ir_sync_input_eq_preset type="3">255</ir_sync_input_eq_preset>
+                <ir_sync_eq_enable type="3">255</ir_sync_eq_enable>
+                <ir_sync_eq_low_gain type="3">255</ir_sync_eq_low_gain>
+                <ir_sync_eq_low_mid_gain type="3">255</ir_sync_eq_low_mid_gain>
+                <ir_sync_eq_low_mid_freq type="3">255</ir_sync_eq_low_mid_freq>
+                <ir_sync_eq_low_mid_q type="3">255</ir_sync_eq_low_mid_q>
+                <ir_sync_eq_high_mid_gain type="3">255</ir_sync_eq_high_mid_gain>
+                <ir_sync_eq_high_mid_freq type="3">255</ir_sync_eq_high_mid_freq>
+                <ir_sync_eq_high_mid_q type="3">255</ir_sync_eq_high_mid_q>
+                <ir_sync_eq_high_gain type="3">255</ir_sync_eq_high_gain>
+                <ir_sync_auto_off type="3">255</ir_sync_auto_off>
+                <tags type="10"></tags>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+        </device>
+        <device>
+            <id dcid="CD282D40-E139-11DF-8481-0015C5F3F612">DD45D3FA-0000-11DD-A000-000EDDCCCCCC</id>
+            <series>AD</series>
+            <model type="10">AD4D-A</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <production_id type="10">TU173650211</production_id>
+            <firmware_version type="12">00010004000f0000</firmware_version>
+            <firmware_version_valid type="1">true</firmware_version_valid>
+            <firmware_version_hosted type="12">0001000400120000</firmware_version_hosted>
+            <device_name type="10"><![CDATA[AD4D-A]]></device_name>
+            <mac_address type="12">000edd45d3fa</mac_address>
+            <ip_mode type="3">0</ip_mode>
+            <ip_address type="3">2852036901</ip_address>
+            <ip_subnet type="3">4294901760</ip_subnet>
+            <ip_gateway type="3">0</ip_gateway>
+            <scan_freq_step_capability type="10">;25</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;200</scan_rbw_capability>
+            <start type="3">470125</start>
+            <end type="3">607875</end>
+            <band type="10">G57</band>
+            <custom_group_channel1 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel1>
+            <custom_group_channel2 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel2>
+            <custom_group_channel3 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel3>
+            <custom_group_channel4 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel4>
+            <custom_group_channel5 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel5>
+            <custom_group_channel6 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel6>
+            <cid_of_freq_server type="12">dd45d3fa-0000-11dd-a000-000eddcccccc</cid_of_freq_server>
+            <name_of_freq_server type="10">None</name_of_freq_server>
+            <front_panel_lock type="1">false</front_panel_lock>
+            <power_lock type="1">false</power_lock>
+            <dc_power type="3">1</dc_power>
+            <zone type="12">Default</zone>
+            <fan_mode type="3">0</fan_mode>
+            <world_clock_set_rate type="3">48000</world_clock_set_rate>
+            <world_clock_ext_rate type="3">0</world_clock_ext_rate>
+            <audio_encryption_mode type="3">0</audio_encryption_mode>
+            <modem_mode type="3">0</modem_mode>
+            <quadversity_mode type="3">0</quadversity_mode>
+            <dante_primary_network_mode type="3">0</dante_primary_network_mode>
+            <dante_primary_ip_address type="3">2852020376</dante_primary_ip_address>
+            <dante_primary_mac_address type="12">000eddfcd3b7</dante_primary_mac_address>
+            <dante_primary_subnet_mask type="3">4294901760</dante_primary_subnet_mask>
+            <dante_primary_default_gateway type="3">0</dante_primary_default_gateway>
+            <dante_ip_address_static_primary type="3">0</dante_ip_address_static_primary>
+            <dante_ip_subnet_static_primary type="3">0</dante_ip_subnet_static_primary>
+            <dante_ip_gateway_static_primary type="3">0</dante_ip_gateway_static_primary>
+            <dc_module type="2">0</dc_module>
+            <dc_module_temp type="2">32767</dc_module_temp>
+            <channel number="1">
+                <channel_name type="10"><![CDATA[MIC 1]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">-6</audio_gain>
+                <audio_mute type="1">false</audio_mute>
+                <ground_lift_sw type="1">false</ground_lift_sw>
+                <child1_id type="12">FFA41548-0000-11DD-A000-000EDDCCCCCC</child1_id>
+                <child2_id type="12">00000000-0000-0000-0000-000000000000</child2_id>
+                <child3_id type="12">00000000000000000000000000000000</child3_id>
+                <child4_id type="12">00000000000000000000000000000000</child4_id>
+                <child5_id type="12">00000000000000000000000000000000</child5_id>
+                <child6_id type="12">00000000000000000000000000000000</child6_id>
+                <child7_id type="12">00000000000000000000000000000000</child7_id>
+                <child8_id type="12">00000000000000000000000000000000</child8_id>
+                <frequency type="3">544425</frequency>
+                <diversity type="3">0</diversity>
+                <interference_mode type="3">1</interference_mode>
+                <interference_sensitivity type="3">0</interference_sensitivity>
+                <remote_name type="10"></remote_name>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_audio_mute_switch type="3">255</ir_sync_audio_mute_switch>
+                <ir_sync_tx_sensitivity type="2">-1</ir_sync_tx_sensitivity>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <ir_sync_custom_groups type="3">0</ir_sync_custom_groups>
+                <rf_scaling_factor type="3">10</rf_scaling_factor>
+                <audio_out_level_switch type="3">1</audio_out_level_switch>
+                <audio_peak_hold type="1">false</audio_peak_hold>
+                <ir_sync_handheld_offset type="2">-128</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="2">-128</ir_sync_bodypack_offset>
+                <unregistered_tx_mode type="3">1</unregistered_tx_mode>
+                <regtx1_id type="12">ffa41548000011dda000000eddcccccc</regtx1_id>
+                <regtx2_id type="12">00000000000000000000000000000000</regtx2_id>
+                <regtx3_id type="12">00000000000000000000000000000000</regtx3_id>
+                <regtx4_id type="12">00000000000000000000000000000000</regtx4_id>
+                <regtx5_id type="12">00000000000000000000000000000000</regtx5_id>
+                <regtx6_id type="12">00000000000000000000000000000000</regtx6_id>
+                <regtx7_id type="12">00000000000000000000000000000000</regtx7_id>
+                <regtx8_id type="12">00000000000000000000000000000000</regtx8_id>
+                <regtx1_name type="10">ADX2FD</regtx1_name>
+                <regtx2_name type="10"></regtx2_name>
+                <regtx3_name type="10"></regtx3_name>
+                <regtx4_name type="10"></regtx4_name>
+                <regtx5_name type="10"></regtx5_name>
+                <regtx6_name type="10"></regtx6_name>
+                <regtx7_name type="10"></regtx7_name>
+                <regtx8_name type="10"></regtx8_name>
+                <tone_gen_level type="2">-128</tone_gen_level>
+                <tone_gen_freq type="3">400</tone_gen_freq>
+                <ir_sync_tx_polarity type="3">255</ir_sync_tx_polarity>
+                <ir_sync_plugon_phantom_power type="3">255</ir_sync_plugon_phantom_power>
+                <ir_sync_plugon_offset type="2">-128</ir_sync_plugon_offset>
+                <ir_sync_plugon_high_pass_filter type="3">255</ir_sync_plugon_high_pass_filter>
+                <ir_sync_plugon_tx_sensitivity type="2">-1</ir_sync_plugon_tx_sensitivity>
+                <tags type="10"></tags>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+            <channel number="2">
+                <channel_name type="10"><![CDATA[MIC 2]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">-6</audio_gain>
+                <audio_mute type="1">false</audio_mute>
+                <ground_lift_sw type="1">false</ground_lift_sw>
+                <child1_id type="12">FFA4706C-0000-11DD-A000-000EDDCCCCCC</child1_id>
+                <child2_id type="12">00000000-0000-0000-0000-000000000000</child2_id>
+                <child3_id type="12">00000000000000000000000000000000</child3_id>
+                <child4_id type="12">00000000000000000000000000000000</child4_id>
+                <child5_id type="12">00000000000000000000000000000000</child5_id>
+                <child6_id type="12">00000000000000000000000000000000</child6_id>
+                <child7_id type="12">00000000000000000000000000000000</child7_id>
+                <child8_id type="12">00000000000000000000000000000000</child8_id>
+                <frequency type="3">534900</frequency>
+                <diversity type="3">0</diversity>
+                <interference_mode type="3">1</interference_mode>
+                <interference_sensitivity type="3">0</interference_sensitivity>
+                <remote_name type="10"></remote_name>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_audio_mute_switch type="3">255</ir_sync_audio_mute_switch>
+                <ir_sync_tx_sensitivity type="2">-1</ir_sync_tx_sensitivity>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <ir_sync_custom_groups type="3">0</ir_sync_custom_groups>
+                <rf_scaling_factor type="3">10</rf_scaling_factor>
+                <audio_out_level_switch type="3">1</audio_out_level_switch>
+                <audio_peak_hold type="1">false</audio_peak_hold>
+                <ir_sync_handheld_offset type="2">-128</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="2">-128</ir_sync_bodypack_offset>
+                <unregistered_tx_mode type="3">1</unregistered_tx_mode>
+                <regtx1_id type="12">ffa4706c000011dda000000eddcccccc</regtx1_id>
+                <regtx2_id type="12">00000000000000000000000000000000</regtx2_id>
+                <regtx3_id type="12">00000000000000000000000000000000</regtx3_id>
+                <regtx4_id type="12">00000000000000000000000000000000</regtx4_id>
+                <regtx5_id type="12">00000000000000000000000000000000</regtx5_id>
+                <regtx6_id type="12">00000000000000000000000000000000</regtx6_id>
+                <regtx7_id type="12">00000000000000000000000000000000</regtx7_id>
+                <regtx8_id type="12">00000000000000000000000000000000</regtx8_id>
+                <regtx1_name type="10">ADX2FD</regtx1_name>
+                <regtx2_name type="10"></regtx2_name>
+                <regtx3_name type="10"></regtx3_name>
+                <regtx4_name type="10"></regtx4_name>
+                <regtx5_name type="10"></regtx5_name>
+                <regtx6_name type="10"></regtx6_name>
+                <regtx7_name type="10"></regtx7_name>
+                <regtx8_name type="10"></regtx8_name>
+                <tone_gen_level type="2">-128</tone_gen_level>
+                <tone_gen_freq type="3">400</tone_gen_freq>
+                <ir_sync_tx_polarity type="3">255</ir_sync_tx_polarity>
+                <ir_sync_plugon_phantom_power type="3">255</ir_sync_plugon_phantom_power>
+                <ir_sync_plugon_offset type="2">-128</ir_sync_plugon_offset>
+                <ir_sync_plugon_high_pass_filter type="3">255</ir_sync_plugon_high_pass_filter>
+                <ir_sync_plugon_tx_sensitivity type="2">-1</ir_sync_plugon_tx_sensitivity>
+                <tags type="10"></tags>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+        </device>
+        <device>
+            <series>PSM300</series>
+            <id type="10">D6691575-1A9C-4CA5-B618-DB24122513DD</id>
+            <device_name type="10">PSM300</device_name>
+            <model type="10">PSM300</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <band type="10">J13</band>
+            <zone type="10">Default</zone>
+            <diversity type="2">0</diversity>
+            <channel number="1">
+                <frequency type="1025">588275</frequency>
+                <incl_group type="1030">00000000-0000-0000-0000-000000000000</incl_group>
+                <group_channel type="1026">G:04 Ch:05</group_channel>
+                <tx_power type="2">30</tx_power>
+                <channel_name type="10">Shure</channel_name>
+                <color type="67">#585858</color>
+            </channel>
+        </device>
+        <device>
+            <id dcid="044BFA1E-FD5A-11E3-8939-0015C5F3F612">A68343D2-A245-4CE0-9AAE-F01A04C01DC3</id>
+            <series>SLXD</series>
+            <model type="10">SLXD4D</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <production_id type="10"></production_id>
+            <firmware_version type="12">0000000000000000</firmware_version>
+            <firmware_version_valid type="1">false</firmware_version_valid>
+            <firmware_version_hosted type="12">0000000000000000</firmware_version_hosted>
+            <device_name type="10"><![CDATA[SLXD4D]]></device_name>
+            <mac_address type="12"></mac_address>
+            <ip_mode type="3">0</ip_mode>
+            <ip_address type="3">0</ip_address>
+            <ip_subnet type="3">0</ip_subnet>
+            <ip_gateway type="3">0</ip_gateway>
+            <scan_freq_step_capability type="10">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_freq_step_capability>
+            <scan_rbw_capability type="10">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</scan_rbw_capability>
+            <start type="3">0</start>
+            <end type="3">0</end>
+            <band type="10">G58</band>
+            <front_panel_lock type="3">0</front_panel_lock>
+            <zone type="12">Default</zone>
+            <serial_number type="10"></serial_number>
+            <channel number="1">
+                <channel_name type="10"><![CDATA[Shure]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">12</audio_gain>
+                <frequency type="3">477150</frequency>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <audio_out_level_switch type="3">0</audio_out_level_switch>
+                <ir_sync_handheld_offset type="2">-128</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="2">-128</ir_sync_bodypack_offset>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_plugon_phantom_power type="3">255</ir_sync_plugon_phantom_power>
+                <ir_sync_plugon_offset type="2">-128</ir_sync_plugon_offset>
+                <ir_sync_plugon_tx_sensitivity type="2">-1</ir_sync_plugon_tx_sensitivity>
+                <tags type="10"></tags>
+                <ir_sync_auto_lock type="3">255</ir_sync_auto_lock>
+                <ir_sync_rf_power_plugon type="3">255</ir_sync_rf_power_plugon>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+            <channel number="2">
+                <channel_name type="10"><![CDATA[Shure]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">12</audio_gain>
+                <frequency type="3">494075</frequency>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <audio_out_level_switch type="3">0</audio_out_level_switch>
+                <ir_sync_handheld_offset type="2">-128</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="2">-128</ir_sync_bodypack_offset>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_plugon_phantom_power type="3">255</ir_sync_plugon_phantom_power>
+                <ir_sync_plugon_offset type="2">-128</ir_sync_plugon_offset>
+                <ir_sync_plugon_tx_sensitivity type="2">-1</ir_sync_plugon_tx_sensitivity>
+                <tags type="10"></tags>
+                <ir_sync_auto_lock type="3">255</ir_sync_auto_lock>
+                <ir_sync_rf_power_plugon type="3">255</ir_sync_rf_power_plugon>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+        </device>
+        <zones version="1.1">
+            <zone color="#7863ed" ordinal="0">Default</zone>
+            <zone_matrix>
+                <from zone="Default">
+                    <to zone="Default">
+                        <ch-ch>1</ch-ch>
+                        <ch-imd>1</ch-imd>
+                    </to>
+                </from>
+            </zone_matrix>
+        </zones>
+    </inventory>
+    <coordination_info>
+        <channel_management version="1.0">
+            <channels>
+                <id active_channel="true" coordination_include="false">DD211E02-0000-11DD-A000-000EDDCCCCCC-0</id>
+                <id active_channel="true" coordination_include="false">DD211E02-0000-11DD-A000-000EDDCCCCCC-1</id>
+                <id active_channel="true" coordination_include="false">DD45D3FA-0000-11DD-A000-000EDDCCCCCC-0</id>
+                <id active_channel="true" coordination_include="false">DD45D3FA-0000-11DD-A000-000EDDCCCCCC-1</id>
+                <id active_channel="true" coordination_include="false">D6691575-1A9C-4CA5-B618-DB24122513DD</id>
+                <id active_channel="true" coordination_include="false">A68343D2-A245-4CE0-9AAE-F01A04C01DC3-0</id>
+                <id active_channel="true" coordination_include="false">A68343D2-A245-4CE0-9AAE-F01A04C01DC3-1</id>
+            </channels>
+            <active_channel_list sort_order="0" sort_col="-1"/>
+            <backup_channel_list sort_order="0" sort_col="-1"/>
+        </channel_management>
+        <scan_data version="1.3">
+            <file_info type="2">
+                <id>{46ceca74-7e54-413f-b782-2241ad495f1a}</id>
+                <name>max_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/max_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{34aa6eef-c3a8-4a25-b47b-3711700eff29}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{1a095c4d-db1e-4ad2-84c4-e771b05c0dcb}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{8ea204d4-8469-49e1-80bc-53c012fc9b38}</id>
+                <name>New scan 1</name>
+                <file_path>/Users/alexthe5th/Documents/Shure/Frequency Plots/Autosaved/2025-03-22_10-53-43 [AD4D-A] MIC 1 scan 1.sdb3</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{899bdc05-7033-4b74-8377-541bafa45022}</id>
+                <name>New scan 2</name>
+                <file_path>/Users/alexthe5th/Documents/Shure/Frequency Plots/Autosaved/2025-03-22_10-53-43 [AD4D-A] MIC 1 scan 2.sdb3</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{c914443f-5d3f-4290-bf01-8e052ea37dd2}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{7254ee94-040a-4353-af22-9ab9ad4bb409}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{1a89b395-426c-4d7d-8e2c-b7ecb7737914}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{8e8fe48e-ecad-4126-a09d-a88faa69b4ff}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{38928d69-c1e1-4c2f-8edb-b360d9c864a0}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{5951d780-b6a8-463c-9f15-5649066b492d}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{61c5272c-c078-4d29-9f78-db0a3ca0740d}</id>
+                <name>max_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/max_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{83927f06-b3ef-4d6f-8a03-65fa72602529}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{74d13d8f-91bb-49a6-bec4-cfb8416edc6d}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{45e20af9-0d41-441d-a123-fd81858e1821}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{d5c15144-0bf2-4f61-ad53-ff353ea7ca1e}</id>
+                <name>max_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/max_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{802878e7-5603-4b2a-8109-eb0d61e297db}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{deec5d6b-6c6d-4c74-914d-a73f339a2b86}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{4981fad4-cec9-409b-8cf7-6476c82ba901}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{705f394d-5df3-4ee1-a844-141bc4af1c40}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{2bcf4a79-3489-49d9-b9a5-673c6a87edae}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{145e4625-eb34-40b9-89ff-05f161aca3d5}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{edf013ac-c707-4410-809c-9fcc7d3a46ea}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{1347a75c-eec5-4220-b97b-da120c55a27d}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="2">
+                <id>{5fc38b4a-6c22-454a-914d-aeeba4175dab}</id>
+                <name>recent_scan.csv</name>
+                <file_path>/Users/alexthe5th/rf_scanner/data/recent_scan.csv</file_path>
+            </file_info>
+            <file_info type="3">
+                <id>{DD211E02-0000-11DD-A000-000EDDCCCCCC}</id>
+                <name>scan_032025_145055.sdb</name>
+                <scan_data_source name="scan_032025_145055.sdb" model="TODO" color="#00ff00" description="" date="Thu Mar 20 2025" time="14:50:56" id="{DD211E02-0000-11DD-A000-000EDDCCCCCC}" ver="0.0.0.1">
+                    <data_sets count="1" no_data_value="-140">
+                        <data_set freq_units="KHz" step_freq="25.0" res_bandwidth="TODO" index="0" start_freq="554000.0" scale_factor="1" date="Thu Mar 20 2025" time="14:50:56" stop_freq="615875.0" date_time="1742507456782" ampl_units="dBm">
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-82</v>
+                            <v>-79</v>
+                            <v>-77</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-67</v>
+                            <v>-63</v>
+                            <v>-63</v>
+                            <v>-63</v>
+                            <v>-63</v>
+                            <v>-63</v>
+                            <v>-63</v>
+                            <v>-62</v>
+                            <v>-62</v>
+                            <v>-62</v>
+                            <v>-62</v>
+                            <v>-62</v>
+                            <v>-64</v>
+                            <v>-68</v>
+                            <v>-69</v>
+                            <v>-68</v>
+                            <v>-69</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-69</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-67</v>
+                            <v>-67</v>
+                            <v>-67</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-73</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-70</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-68</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-70</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-69</v>
+                            <v>-68</v>
+                            <v>-67</v>
+                            <v>-67</v>
+                            <v>-67</v>
+                            <v>-66</v>
+                            <v>-66</v>
+                            <v>-65</v>
+                            <v>-65</v>
+                            <v>-65</v>
+                            <v>-65</v>
+                            <v>-64</v>
+                            <v>-65</v>
+                            <v>-65</v>
+                            <v>-65</v>
+                            <v>-65</v>
+                            <v>-65</v>
+                            <v>-66</v>
+                            <v>-65</v>
+                            <v>-66</v>
+                            <v>-66</v>
+                            <v>-66</v>
+                            <v>-66</v>
+                            <v>-66</v>
+                            <v>-66</v>
+                            <v>-66</v>
+                            <v>-66</v>
+                            <v>-66</v>
+                            <v>-67</v>
+                            <v>-67</v>
+                            <v>-67</v>
+                            <v>-67</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-69</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-78</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-70</v>
+                            <v>-63</v>
+                            <v>-64</v>
+                            <v>-64</v>
+                            <v>-64</v>
+                            <v>-64</v>
+                            <v>-65</v>
+                            <v>-65</v>
+                            <v>-66</v>
+                            <v>-65</v>
+                            <v>-66</v>
+                            <v>-66</v>
+                            <v>-69</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-68</v>
+                            <v>-67</v>
+                            <v>-68</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-70</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-88</v>
+                            <v>-89</v>
+                            <v>-91</v>
+                            <v>-91</v>
+                            <v>-92</v>
+                            <v>-91</v>
+                            <v>-89</v>
+                            <v>-87</v>
+                            <v>-85</v>
+                            <v>-82</v>
+                            <v>-74</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-69</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-78</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-80</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-78</v>
+                            <v>-72</v>
+                            <v>-67</v>
+                            <v>-67</v>
+                            <v>-67</v>
+                            <v>-67</v>
+                            <v>-66</v>
+                            <v>-67</v>
+                            <v>-67</v>
+                            <v>-66</v>
+                            <v>-66</v>
+                            <v>-65</v>
+                            <v>-65</v>
+                            <v>-69</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-70</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-87</v>
+                            <v>-87</v>
+                            <v>-89</v>
+                            <v>-90</v>
+                            <v>-91</v>
+                            <v>-92</v>
+                            <v>-93</v>
+                            <v>-94</v>
+                            <v>-95</v>
+                            <v>-96</v>
+                            <v>-96</v>
+                            <v>-86</v>
+                            <v>-80</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-81</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-82</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-82</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-74</v>
+                            <v>-74</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-87</v>
+                            <v>-88</v>
+                            <v>-87</v>
+                            <v>-87</v>
+                            <v>-87</v>
+                            <v>-88</v>
+                            <v>-87</v>
+                            <v>-90</v>
+                            <v>-92</v>
+                            <v>-92</v>
+                            <v>-90</v>
+                            <v>-91</v>
+                            <v>-91</v>
+                            <v>-92</v>
+                            <v>-92</v>
+                            <v>-93</v>
+                            <v>-92</v>
+                            <v>-92</v>
+                            <v>-90</v>
+                            <v>-88</v>
+                            <v>-86</v>
+                            <v>-81</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-77</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-87</v>
+                            <v>-86</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-87</v>
+                            <v>-86</v>
+                            <v>-87</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-87</v>
+                            <v>-86</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-87</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-84</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-87</v>
+                            <v>-89</v>
+                            <v>-89</v>
+                            <v>-87</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-84</v>
+                            <v>-90</v>
+                            <v>-88</v>
+                            <v>-87</v>
+                            <v>-85</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-77</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-73</v>
+                            <v>-72</v>
+                            <v>-71</v>
+                            <v>-72</v>
+                            <v>-75</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-87</v>
+                            <v>-87</v>
+                            <v>-86</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-84</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-85</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-75</v>
+                            <v>-75</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-76</v>
+                            <v>-77</v>
+                            <v>-77</v>
+                            <v>-78</v>
+                            <v>-78</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-79</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-80</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-85</v>
+                            <v>-87</v>
+                            <v>-86</v>
+                            <v>-85</v>
+                            <v>-87</v>
+                            <v>-87</v>
+                            <v>-86</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-82</v>
+                            <v>-84</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-83</v>
+                            <v>-84</v>
+                            <v>-84</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-81</v>
+                            <v>-82</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-82</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-83</v>
+                            <v>-85</v>
+                            <v>-85</v>
+                            <v>-86</v>
+                            <v>-86</v>
+                            <v>-87</v>
+                            <v>-89</v>
+                            <v>-91</v>
+                            <v>-93</v>
+                            <v>-95</v>
+                            <v>-99</v>
+                            <v>-104</v>
+                            <v>-106</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-108</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-108</v>
+                            <v>-108</v>
+                            <v>-108</v>
+                            <v>-108</v>
+                            <v>-109</v>
+                            <v>-108</v>
+                            <v>-108</v>
+                            <v>-108</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-108</v>
+                            <v>-109</v>
+                            <v>-108</v>
+                            <v>-108</v>
+                            <v>-108</v>
+                            <v>-108</v>
+                            <v>-108</v>
+                            <v>-108</v>
+                            <v>-108</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-104</v>
+                            <v>-98</v>
+                            <v>-97</v>
+                            <v>-98</v>
+                            <v>-97</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-96</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-106</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-109</v>
+                            <v>-106</v>
+                            <v>-107</v>
+                            <v>-106</v>
+                            <v>-106</v>
+                            <v>-106</v>
+                            <v>-105</v>
+                            <v>-106</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-102</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-100</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-100</v>
+                            <v>-99</v>
+                            <v>-98</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-100</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-99</v>
+                            <v>-98</v>
+                            <v>-99</v>
+                            <v>-98</v>
+                            <v>-96</v>
+                            <v>-96</v>
+                            <v>-97</v>
+                            <v>-96</v>
+                            <v>-97</v>
+                            <v>-96</v>
+                            <v>-96</v>
+                            <v>-97</v>
+                            <v>-98</v>
+                            <v>-96</v>
+                            <v>-97</v>
+                            <v>-96</v>
+                            <v>-97</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-97</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-97</v>
+                            <v>-98</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-99</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-96</v>
+                            <v>-96</v>
+                            <v>-96</v>
+                            <v>-95</v>
+                            <v>-95</v>
+                            <v>-96</v>
+                            <v>-95</v>
+                            <v>-96</v>
+                            <v>-97</v>
+                            <v>-96</v>
+                            <v>-97</v>
+                            <v>-96</v>
+                            <v>-96</v>
+                            <v>-96</v>
+                            <v>-97</v>
+                            <v>-96</v>
+                            <v>-98</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-98</v>
+                            <v>-97</v>
+                            <v>-98</v>
+                            <v>-99</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-102</v>
+                            <v>-101</v>
+                            <v>-99</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-102</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-106</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-102</v>
+                            <v>-102</v>
+                            <v>-102</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-99</v>
+                            <v>-98</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-101</v>
+                            <v>-101</v>
+                            <v>-102</v>
+                            <v>-102</v>
+                            <v>-102</v>
+                            <v>-102</v>
+                            <v>-101</v>
+                            <v>-102</v>
+                            <v>-102</v>
+                            <v>-102</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-102</v>
+                            <v>-102</v>
+                            <v>-102</v>
+                            <v>-102</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-101</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-99</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-96</v>
+                            <v>-97</v>
+                            <v>-97</v>
+                            <v>-96</v>
+                            <v>-97</v>
+                            <v>-98</v>
+                            <v>-98</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-99</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-100</v>
+                            <v>-101</v>
+                            <v>-102</v>
+                            <v>-102</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-106</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-105</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-105</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-103</v>
+                            <v>-103</v>
+                            <v>-104</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-102</v>
+                            <v>-93</v>
+                            <v>-91</v>
+                            <v>-90</v>
+                            <v>-91</v>
+                            <v>-91</v>
+                            <v>-90</v>
+                            <v>-91</v>
+                            <v>-92</v>
+                            <v>-90</v>
+                            <v>-90</v>
+                            <v>-91</v>
+                            <v>-91</v>
+                            <v>-90</v>
+                            <v>-95</v>
+                            <v>-102</v>
+                            <v>-108</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-111</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-111</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-111</v>
+                            <v>-111</v>
+                            <v>-111</v>
+                            <v>-110</v>
+                            <v>-111</v>
+                            <v>-110</v>
+                            <v>-111</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-111</v>
+                            <v>-110</v>
+                            <v>-111</v>
+                            <v>-111</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-110</v>
+                            <v>-108</v>
+                        </data_set>
+                    </data_sets>
+                </scan_data_source>
+            </file_info>
+            <merged_scans>
+                <id>{1347a75c-eec5-4220-b97b-da120c55a27d}</id>
+                <id>{5fc38b4a-6c22-454a-914d-aeeba4175dab}</id>
+                <id>{8ea204d4-8469-49e1-80bc-53c012fc9b38}</id>
+            </merged_scans>
+            <threshold>-88</threshold>
+            <higher_threshold>-60</higher_threshold>
+        </scan_data>
+        <channel_exclusions version="1.1">
+            <location_info>
+                <search_type/>
+                <country>United States</country>
+                <found_count>0</found_count>
+                <found_count>0</found_count>
+                <tv_spectrum_format>6 MHz</tv_spectrum_format>
+            </location_info>
+            <channel_avoidance_info>
+                <channel>
+                    <number>2</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>54.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>60.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>3</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>60.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>66.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>4</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>66.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>72.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>5</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>76.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>82.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>6</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>82.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>88.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>7</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>174.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>180.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>8</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>180.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>186.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>9</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>186.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>192.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>10</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>192.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>198.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>11</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>198.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>204.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>12</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>204.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>210.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>13</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>210.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>216.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>14</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>470.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>476.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>15</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>476.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>482.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>16</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>482.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>488.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>17</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>488.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>494.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>18</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>494.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>500.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>19</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>500.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>506.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>20</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>506.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>512.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>21</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>512.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>518.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>22</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>518.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>524.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>23</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>524.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>530.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>24</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>530.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>536.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>25</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>536.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>542.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>26</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>542.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>548.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>27</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>548.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>554.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>28</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>554.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>560.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>29</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>560.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>566.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>30</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>566.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>572.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>31</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>572.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>578.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>32</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>578.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>584.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>33</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>584.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>590.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>34</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>590.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>596.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>35</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>596.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>602.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>36</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>602.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>608.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+            </channel_avoidance_info>
+        </channel_exclusions>
+        <global_exclusions version="1.1">
+            <frequency_exclusions>
+                <channel>
+                    <frequency units="kHz">589900</frequency>
+                    <series>Generic Device - IMD</series>
+                    <manufacturer/>
+                    <model/>
+                    <band>Wideband</band>
+                    <tx_profile/>
+                    <compat_prof_id>6cbbb7e8-55ab-e4bb-f5c7-1b86242f7fd2</compat_prof_id>
+                    <strength units="dBm">-30.1</strength>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </channel>
+            </frequency_exclusions>
+            <compat_profiles>
+                <compat_profile name="Standard" version="0.0.0.1" synthesizable="0" imd_source="1" id="6cbbb7e8-55ab-e4bb-f5c7-1b86242f7fd2">
+                    <spacing freq_units="KHz">
+                        <ch_ch>800</ch_ch>
+                        <imd_2t3o>400</imd_2t3o>
+                        <imd_2t5o>0</imd_2t5o>
+                        <imd_2t7o>0</imd_2t7o>
+                        <imd_2t9o>0</imd_2t9o>
+                        <imd_3t3o>0</imd_3t3o>
+                    </spacing>
+                    <filter type="1">
+                        <filter_start>-100000</filter_start>
+                        <filter_end>100000</filter_end>
+                        <filter_center>0</filter_center>
+                    </filter>
+                </compat_profile>
+            </compat_profiles>
+            <freq_range_exclusions>
+                <range>
+                    <frequency units="kHz">
+                        <start>469999</start>
+                        <end>517398</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>517401</start>
+                        <end>517751</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>517813</start>
+                        <end>519135</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>519497</start>
+                        <end>521535</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>521707</start>
+                        <end>522919</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>524507</start>
+                        <end>525674</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>526528</start>
+                        <end>526738</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>527583</start>
+                        <end>527628</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>527898</start>
+                        <end>529870</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>530669</start>
+                        <end>536588</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>537021</start>
+                        <end>538112</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>539753</start>
+                        <end>539905</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>540013</start>
+                        <end>542352</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>543029</start>
+                        <end>596674</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>599290</start>
+                        <end>608920</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>613822</start>
+                        <end>616413</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+                <range>
+                    <frequency units="kHz">
+                        <start>616905</start>
+                        <end>619800</end>
+                    </frequency>
+                    <source>Detected</source>
+                    <notes/>
+                    <exclude>1</exclude>
+                </range>
+            </freq_range_exclusions>
+        </global_exclusions>
+        <band_planning version="1.0">
+            <accounted>false</accounted>
+            <country>United States</country>
+            <user_group/>
+            <band_plan_accounted>false</band_plan_accounted>
+        </band_planning>
+    </coordination_info>
+    <plot_info>
+        <coordination_plot version="1.2">
+            <plots>
+                <plot>
+                    <id selected="0" color="#00ff00">{DD211E02-0000-11DD-A000-000EDDCCCCCC}</id>
+                    <id selected="0" color="#fc6120">{46ceca74-7e54-413f-b782-2241ad495f1a}</id>
+                    <id selected="0" color="#fdaf2a">{34aa6eef-c3a8-4a25-b47b-3711700eff29}</id>
+                    <id selected="0" color="#ffff00">{1a095c4d-db1e-4ad2-84c4-e771b05c0dcb}</id>
+                    <id selected="2" color="#da2d7f">{8ea204d4-8469-49e1-80bc-53c012fc9b38}</id>
+                    <id selected="0" color="#332785">{899bdc05-7033-4b74-8377-541bafa45022}</id>
+                    <id selected="0" color="#332785">{c914443f-5d3f-4290-bf01-8e052ea37dd2}</id>
+                    <id selected="0" color="#49a999">{7254ee94-040a-4353-af22-9ab9ad4bb409}</id>
+                    <id selected="0" color="#ddcb7c">{1a89b395-426c-4d7d-8e2c-b7ecb7737914}</id>
+                    <id selected="0" color="#6692fc">{8e8fe48e-ecad-4126-a09d-a88faa69b4ff}</id>
+                    <id selected="0" color="#7863ed">{38928d69-c1e1-4c2f-8edb-b360d9c864a0}</id>
+                    <id selected="0" color="#da2d7f">{5951d780-b6a8-463c-9f15-5649066b492d}</id>
+                    <id selected="0" color="#fc6120">{61c5272c-c078-4d29-9f78-db0a3ca0740d}</id>
+                    <id selected="0" color="#fdaf2a">{83927f06-b3ef-4d6f-8a03-65fa72602529}</id>
+                    <id selected="0" color="#ffff00">{74d13d8f-91bb-49a6-bec4-cfb8416edc6d}</id>
+                    <id selected="0" color="#332785">{45e20af9-0d41-441d-a123-fd81858e1821}</id>
+                    <id selected="0" color="#49a999">{d5c15144-0bf2-4f61-ad53-ff353ea7ca1e}</id>
+                    <id selected="0" color="#ddcb7c">{802878e7-5603-4b2a-8109-eb0d61e297db}</id>
+                    <id selected="0" color="#6692fc">{deec5d6b-6c6d-4c74-914d-a73f339a2b86}</id>
+                    <id selected="0" color="#7863ed">{4981fad4-cec9-409b-8cf7-6476c82ba901}</id>
+                    <id selected="0" color="#da2d7f">{705f394d-5df3-4ee1-a844-141bc4af1c40}</id>
+                    <id selected="0" color="#fc6120">{2bcf4a79-3489-49d9-b9a5-673c6a87edae}</id>
+                    <id selected="0" color="#fdaf2a">{145e4625-eb34-40b9-89ff-05f161aca3d5}</id>
+                    <id selected="0" color="#ffff00">{edf013ac-c707-4410-809c-9fcc7d3a46ea}</id>
+                    <id selected="2" color="#332785">{1347a75c-eec5-4220-b97b-da120c55a27d}</id>
+                    <id selected="2" color="#49a999">{5fc38b4a-6c22-454a-914d-aeeba4175dab}</id>
+                </plot>
+            </plots>
+            <start>506.509 MHz</start>
+            <center>542.417 MHz</center>
+            <end>578.326 MHz</end>
+            <span>71.817 MHz</span>
+        </coordination_plot>
+    </plot_info>
+    <custom_user_group_list>
+        <inclusion_list name="Custom" uuid="e8274c44-a186-434b-b765-aab58fbb157c" active="false" version="1.0"/>
+    </custom_user_group_list>
+    <band_plan_group_list version="1.0"/>
+    <coordinated_data_root version="0.3" id="ae6d2891-792c-4130-b7af-ed1de774a1f6">
+        <mic_channels units="khz" count="7">
+            <freq_entry color="#585858" id="DD211E02-0000-11DD-A000-000EDDCCCCCC-0" tag="">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>PSM1000</series>
+                    <band>J8A</band>
+                    <mode/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>a1e1e1a6-ab07-0c5b-6dda-e6a6ec4e818d</compat_prof_id>
+                <value>615375</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>2</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>651500</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>0</synth_status>
+                <chann_num>0</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>PSM1000</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>DD211E02-0000-11DD-A000-000EDDCCCCCC-0</source_id>
+                <source_name>POUYA</source_name>
+                <dev_category>
+                    <dev_type>Transmitter</dev_type>
+                    <dev_type>In Ear Monitor</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+            <freq_entry color="#585858" id="DD211E02-0000-11DD-A000-000EDDCCCCCC-1" tag="">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>PSM1000</series>
+                    <band>J8A</band>
+                    <mode/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>a1e1e1a6-ab07-0c5b-6dda-e6a6ec4e818d</compat_prof_id>
+                <value>600750</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>2</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>651500</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>0</synth_status>
+                <chann_num>1</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>PSM1000</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>DD211E02-0000-11DD-A000-000EDDCCCCCC-1</source_id>
+                <source_name>MARCUS</source_name>
+                <dev_category>
+                    <dev_type>Transmitter</dev_type>
+                    <dev_type>In Ear Monitor</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+            <freq_entry color="#585858" id="DD45D3FA-0000-11DD-A000-000EDDCCCCCC-0" tag="">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>AD</series>
+                    <band>G57</band>
+                    <mode>Standard</mode>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>8114b988-41e6-f617-52c3-a2a3dc0d9d46</compat_prof_id>
+                <value>544425</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>2</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>761801</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>1</synth_status>
+                <chann_num>0</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>AD4D-A</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>DD45D3FA-0000-11DD-A000-000EDDCCCCCC-0</source_id>
+                <source_name>MIC 1</source_name>
+                <dev_category>
+                    <dev_type>Receiver</dev_type>
+                    <dev_type>Microphone</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+            <freq_entry color="#585858" id="DD45D3FA-0000-11DD-A000-000EDDCCCCCC-1" tag="">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>AD</series>
+                    <band>G57</band>
+                    <mode>Standard</mode>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>8114b988-41e6-f617-52c3-a2a3dc0d9d46</compat_prof_id>
+                <value>534900</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>2</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>761801</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>1</synth_status>
+                <chann_num>1</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>AD4D-A</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>DD45D3FA-0000-11DD-A000-000EDDCCCCCC-1</source_id>
+                <source_name>MIC 2</source_name>
+                <dev_category>
+                    <dev_type>Receiver</dev_type>
+                    <dev_type>Microphone</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+            <freq_entry color="#585858" id="D6691575-1A9C-4CA5-B618-DB24122513DD" tag="">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>PSM300</series>
+                    <band>J13</band>
+                    <mode/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>719185b7-d3b4-a222-2350-7f6af1b7871c</compat_prof_id>
+                <value>588275</value>
+                <gr_ch>G:04 Ch:05</gr_ch>
+                <context_role>2</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>131600</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>0</synth_status>
+                <chann_num>-1</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>PSM300</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>D6691575-1A9C-4CA5-B618-DB24122513DD</source_id>
+                <source_name>Shure</source_name>
+                <dev_category>
+                    <dev_type>In Ear Monitor</dev_type>
+                    <dev_type>Transmitter</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+            <freq_entry color="#585858" id="A68343D2-A245-4CE0-9AAE-F01A04C01DC3-0" tag="">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>SLXD</series>
+                    <band>G58</band>
+                    <mode/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>ea98c9cb-b14c-f76b-0420-72b830d9bed1</compat_prof_id>
+                <value>477150</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>2</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>551300</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>0</synth_status>
+                <chann_num>0</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>SLXD4D</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>A68343D2-A245-4CE0-9AAE-F01A04C01DC3-0</source_id>
+                <source_name>Shure</source_name>
+                <dev_category>
+                    <dev_type>Receiver</dev_type>
+                    <dev_type>Microphone</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+            <freq_entry color="#585858" id="A68343D2-A245-4CE0-9AAE-F01A04C01DC3-1" tag="">
+                <compat_key>
+                    <zone>Default</zone>
+                    <series>SLXD</series>
+                    <band>G58</band>
+                    <mode/>
+                    <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                </compat_key>
+                <compat_prof_id>ea98c9cb-b14c-f76b-0420-72b830d9bed1</compat_prof_id>
+                <value>494075</value>
+                <gr_ch>G:-- Ch:--</gr_ch>
+                <context_role>2</context_role>
+                <origin>0</origin>
+                <compat_level>0</compat_level>
+                <coord_order>551300</coord_order>
+                <imd_source>1</imd_source>
+                <vip>0</vip>
+                <synth_status>0</synth_status>
+                <chann_num>1</chann_num>
+                <diversity div_mode="0" div_partner_id="-1"/>
+                <model>SLXD4D</model>
+                <manufacturer>Shure</manufacturer>
+                <source_id>A68343D2-A245-4CE0-9AAE-F01A04C01DC3-1</source_id>
+                <source_name>Shure</source_name>
+                <dev_category>
+                    <dev_type>Receiver</dev_type>
+                    <dev_type>Microphone</dev_type>
+                    <dev_type>Rack</dev_type>
+                </dev_category>
+            </freq_entry>
+        </mic_channels>
+        <compatibility_profile_settings version="1.0" count="5">
+            <profile>
+                <band>G57</band>
+                <series>AD</series>
+                <tx_profile>Standard</tx_profile>
+                <zone>Default</zone>
+                <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                <compat_profile name="Standard" version="0.0.0.1" synthesizable="1" imd_source="1" id="dedca352-6d01-9faa-912c-3d3218191a92">
+                    <spacing freq_units="KHz">
+                        <ch_ch>350</ch_ch>
+                        <imd_2t3o>75</imd_2t3o>
+                        <imd_2t5o>0</imd_2t5o>
+                        <imd_2t7o>0</imd_2t7o>
+                        <imd_2t9o>0</imd_2t9o>
+                        <imd_3t3o>0</imd_3t3o>
+                    </spacing>
+                    <filter type="1">
+                        <filter_start>-70000</filter_start>
+                        <filter_end>70000</filter_end>
+                        <filter_center>0</filter_center>
+                    </filter>
+                </compat_profile>
+            </profile>
+            <profile>
+                <band>J8A</band>
+                <series>PSM1000</series>
+                <tx_profile/>
+                <zone>Default</zone>
+                <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                <compat_profile name="Standard" version="0.0.0.1" synthesizable="1" imd_source="1" id="6b7bf58f-aacf-3117-ca21-5e24ee913a03">
+                    <spacing freq_units="KHz">
+                        <ch_ch>350</ch_ch>
+                        <imd_2t3o>250</imd_2t3o>
+                        <imd_2t5o>0</imd_2t5o>
+                        <imd_2t7o>0</imd_2t7o>
+                        <imd_2t9o>0</imd_2t9o>
+                        <imd_3t3o>50</imd_3t3o>
+                    </spacing>
+                    <filter type="2">
+                        <filter_start>-62000</filter_start>
+                        <filter_end>62000</filter_end>
+                        <filter_center>0</filter_center>
+                        <filter_center_list count="3">
+                            <freq>565975</freq>
+                            <freq>589975</freq>
+                            <freq>614000</freq>
+                        </filter_center_list>
+                    </filter>
+                </compat_profile>
+            </profile>
+            <profile>
+                <band>J13</band>
+                <series>PSM300</series>
+                <tx_profile/>
+                <zone>Default</zone>
+                <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                <compat_profile name="Standard" version="0.0.0.1" synthesizable="1" imd_source="1" id="98701a10-9d65-57cc-46bf-2cd8a029b7d6">
+                    <spacing freq_units="KHz">
+                        <ch_ch>375</ch_ch>
+                        <imd_2t3o>300</imd_2t3o>
+                        <imd_2t5o>0</imd_2t5o>
+                        <imd_2t7o>0</imd_2t7o>
+                        <imd_2t9o>0</imd_2t9o>
+                        <imd_3t3o>0</imd_3t3o>
+                    </spacing>
+                    <filter type="0">
+                        <filter_start>-70000</filter_start>
+                        <filter_end>70000</filter_end>
+                        <filter_center>0</filter_center>
+                    </filter>
+                </compat_profile>
+            </profile>
+            <profile>
+                <band>G58</band>
+                <series>SLXD</series>
+                <tx_profile/>
+                <zone>Default</zone>
+                <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                <compat_profile name="Standard" version="0.0.0.1" synthesizable="1" imd_source="1" id="52dd937f-b993-9706-2442-ca2b3c1d27f0">
+                    <spacing freq_units="KHz">
+                        <ch_ch>450</ch_ch>
+                        <imd_2t3o>200</imd_2t3o>
+                        <imd_2t5o>0</imd_2t5o>
+                        <imd_2t7o>0</imd_2t7o>
+                        <imd_2t9o>0</imd_2t9o>
+                        <imd_3t3o>0</imd_3t3o>
+                    </spacing>
+                    <filter type="0">
+                        <filter_start>-100000</filter_start>
+                        <filter_end>100000</filter_end>
+                        <filter_center>0</filter_center>
+                    </filter>
+                </compat_profile>
+            </profile>
+            <profile>
+                <band>Wideband</band>
+                <series>Generic Device - IMD</series>
+                <tx_profile/>
+                <zone/>
+                <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                <compat_profile name="Standard" version="0.0.0.1" synthesizable="0" imd_source="1" id="6cbbb7e8-55ab-e4bb-f5c7-1b86242f7fd2">
+                    <spacing freq_units="KHz">
+                        <ch_ch>800</ch_ch>
+                        <imd_2t3o>400</imd_2t3o>
+                        <imd_2t5o>0</imd_2t5o>
+                        <imd_2t7o>0</imd_2t7o>
+                        <imd_2t9o>0</imd_2t9o>
+                        <imd_3t3o>0</imd_3t3o>
+                    </spacing>
+                    <filter type="1">
+                        <filter_start>-100000</filter_start>
+                        <filter_end>100000</filter_end>
+                        <filter_center>0</filter_center>
+                    </filter>
+                </compat_profile>
+            </profile>
+        </compatibility_profile_settings>
+        <keys_coord_order version="1.1">
+            <profile>
+                <band>G57</band>
+                <series>AD</series>
+                <tx_profile>Standard</tx_profile>
+                <zone/>
+                <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                <coord_order>761801</coord_order>
+            </profile>
+            <profile>
+                <band>J8A</band>
+                <series>PSM1000</series>
+                <tx_profile/>
+                <zone/>
+                <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                <coord_order>651500</coord_order>
+            </profile>
+            <profile>
+                <band>J13</band>
+                <series>PSM300</series>
+                <tx_profile/>
+                <zone/>
+                <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                <coord_order>131600</coord_order>
+            </profile>
+            <profile>
+                <band>G58</band>
+                <series>SLXD</series>
+                <tx_profile/>
+                <zone/>
+                <incl_group>00000000-0000-0000-0000-000000000000</incl_group>
+                <coord_order>551300</coord_order>
+            </profile>
+        </keys_coord_order>
+    </coordinated_data_root>
+    <monitoring_info version="2.2">
+        <channel_order>DD211E02-0000-11DD-A000-000EDDCCCCCC-1;DD45D3FA-0000-11DD-A000-000EDDCCCCCC-0;DD45D3FA-0000-11DD-A000-000EDDCCCCCC-1;DD211E02-0000-11DD-A000-000EDDCCCCCC-0</channel_order>
+        <charger_order/>
+        <chooser_widget id="1">
+            <sort_section>2</sort_section>
+            <sort_order>0</sort_order>
+        </chooser_widget>
+        <chooser_widget id="2">
+            <sort_section>4</sort_section>
+            <sort_order>0</sort_order>
+        </chooser_widget>
+        <device_chooser_layout>0,0,0,0,0,0</device_chooser_layout>
+        <device_chooser_selection>0,1,0,0,0,0</device_chooser_selection>
+        <strip_parameters>
+            <enabled_options>CS_GraphicsChannelNameNetworkLockWidget,CS_FrequencyTvChannelWidget,CS_GraphicsRfAudioWidget,CS_TxInfoWidget,CS_GraphicsRfPowerContainer,CS_GraphicsEncryptionContainer,CS_GraphicsBatteryAudioModeWidget,CS_GraphicsCarouselContainer,CS_GraphicsChargerStripView,CS_GraphicsAccessPointStripView</enabled_options>
+        </strip_parameters>
+        <autolog_parameters>
+            <enabled_plots>22,7,1,3,8,9,10,11,13,14,24,25,26</enabled_plots>
+            <plot_view_mode>4</plot_view_mode>
+        </autolog_parameters>
+        <monitoring_pager version="1.1">
+            <view name="View 1" active="true" id="{01e5793a-fc6e-45b9-bfcf-c2c95e038e53}"/>
+        </monitoring_pager>
+        <monitoring_registry version="1.1">
+            <view id="{01e5793a-fc6e-45b9-bfcf-c2c95e038e53}">
+                <registry arrange_mode="0"/>
+            </view>
+        </monitoring_registry>
+    </monitoring_info>
+</show>

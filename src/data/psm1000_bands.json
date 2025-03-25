@@ -1,5 +1,12 @@
 [
   {
+    "band": "ALL",
+    "frequency_range_hz": { "start": 470000000, "end": 620000000 },
+    "regions_allowed": ["FULL SCAN"],
+    "rf_output_power_options": ["10mW", "50mW"],
+    "regulatory_info": "All scan"
+  },
+  {
     "band": "G53",
     "frequency_range_hz": { "start": 470000000, "end": 510000000 },
     "regions_allowed": ["China"],
