@@ -24,7 +24,7 @@ Key Features
 System Architecture and File Structure
 
 File Structure
-
+```
 rf_scanner/
 │
 ├── data/
@@ -48,7 +48,7 @@ rf_scanner/
 ├── config.json                 # User configuration file (defines scan parameters and selected band)
 ├── requirements.txt            # List of required Python libraries
 └── README.md                   # Project documentation
-
+```
 Module Descriptions
 	1.	config.py:
 	•	Loads settings from config.json (e.g., sample rate, frequency step, gain, and selected band).
