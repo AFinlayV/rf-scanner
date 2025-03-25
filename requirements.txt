@@ -1,10 +1,5 @@
 numpy
 matplotlib
-sys
-os
-datetime
-time
-json
 pandas
 rtlsdr
 
